@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './Button.module.css';
 
 const Button = ({
@@ -11,11 +11,6 @@ const Button = ({
   style,
   ...props
 }) => {
-  const [hover, setHover] = useState(false);
-  const toggleHover = () => {
-    setHover(!hover);
-  };
-
   const commonStyles = {
     backgroundColor: btnColor,
     color: labelColor || 'white',
@@ -24,10 +19,6 @@ const Button = ({
     border: `1px solid ${btnColor}`,
     color: btnColor,
     backgroundColor: 'white',
-  };
-  const outlineHoverStyle = {
-    color: labelColor || 'white',
-    backgroundColor: btnColor,
   };
 
   const roundedStyle = {
@@ -55,11 +46,8 @@ const Button = ({
       btnStyle = blockStyles;
       break;
     case 'outline':
-      if (hover) {
-        btnStyle = outlineHoverStyle;
-      } else {
-        btnStyle = outlineStyles;
-      }
+      btnStyle = outlineStyles;
+
       break;
     default:
       btnStyle = {
@@ -75,8 +63,6 @@ const Button = ({
           ? { ...commonStyles, ...btnStyle, ...disabledStyle, ...style }
           : { ...commonStyles, ...btnStyle, ...style }
       }
-      onMouseEnter={toggleHover}
-      onMouseLeave={toggleHover}
       {...props}
       type="button"
       onClick={!disabled ? onClick : () => {}}
