@@ -1,13 +1,10 @@
 import './App.css';
-import Button from './components/UI/Button';
+import Login from './components/Login';
 
 function App() {
   return (
     <div>
-      <Button btnColor="#B2BEC3" type="outline">
-        LOGIN
-      </Button>
-      <Button>LOGIN</Button>
+      <Login />
     </div>
   );
 }
