@@ -1,0 +1,11 @@
+<svg id="manifacturing" xmlns="http://www.w3.org/2000/svg" width="75.355" height="75.355" viewBox="0 0 75.355 75.355">
+  <path id="Path_406" data-name="Path 406" d="M0,0H75.355V75.355H0Z" fill="none"/>
+  <circle id="Ellipse_120" data-name="Ellipse 120" cx="6.852" cy="6.852" r="6.852" transform="translate(52.856 34.245)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <ellipse id="Ellipse_121" data-name="Ellipse 121" cx="6.852" cy="5.873" rx="6.852" ry="5.873" transform="translate(5.873 47.948)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_122" data-name="Ellipse 122" cx="5.873" cy="5.873" r="5.873" transform="translate(35.238 47.948)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_114" data-name="Line 114" x1="29.365" transform="translate(11.746 59.694)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_115" data-name="Line 115" x2="29.365" transform="translate(11.746 47.948)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_407" data-name="Path 407" d="M8,22.7V7h6.28A9.419,9.419,0,0,1,23.7,16.419v15.7" transform="translate(17.118 14.979)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_408" data-name="Path 408" d="M5,21.419V15.14A3.14,3.14,0,0,1,8.14,12H30.118" transform="translate(10.699 25.678)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_409" data-name="Path 409" d="M31.839,25.979V4L13,25.979" transform="translate(27.817 8.559)" fill="none" stroke="#f40009" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
